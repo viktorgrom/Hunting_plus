@@ -4,23 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgrdd"
+    android:background="@drawable/lug_backgr"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageButton
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:background="@drawable/apple"
+        android:layout_height="120dp"
+        android:layout_width="200dp"
+        android:background="@drawable/start"
         android:onClick="startGame"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Play"
-        android:textAllCaps="true"
-        android:textSize="34sp"
-        android:layout_margin="10dp"
-        android:textColor="@color/design_default_color_primary"/>
+
 
 </LinearLayout>
